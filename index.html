@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio">
+    <meta name="author" content="Aaron Whittier">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="https://themes.3rdwavemedia.com/demo/bs5/developer/assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="https://themes.3rdwavemedia.com/demo/bs5/developer/assets/css/styles.css">
+
+</head>
+
+<body>
+<!-- ******HEADER****** -->
+<header class="header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <img class="profile-image img-fluid float-start square" style="max-width: 140px; max-height: 180px"
+                     src="Assets/Captureicard.PNG" alt="profile image" />
+                <div class="profile-content">
+                    <h1 class="name">Aaron Whittier</h1>
+                    <h2 class="desc">Software Engineer</h2>
+                </div><!--//profile-->
+            </div><!--//col-->
+            <div class="col-12 col-md-auto">
+                <a class="btn btn-cta-primary" href="mailto:aaronwhittier@outlook.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                <ul class="list-unstyled">
+                    <li>Located in Rexburg, Idaho</li>
+                    <li><i class="fas fa-envelope"></i><span class="sr-only">Email: </span><a href="mailto:aaronwhittier@outlook.com">aaronwhittier@outlook.com</a></li>
+                    <li><i class="fas fa-link"></i><span class="sr-only">Github: </span><a href="https://github.com/AAwhittier">https://github.com/AAwhittier</a></li>
+                    <li><i class="fas fa-link"></i><span class="sr-only">LinkedIn: </span><a href="https://linkedin.com/in/aaronwhittier">linkedin.com/in/aaronwhittier</a></li>
+                </ul>
+            </div><!--//col-->
+        </div><!--//row-->
+    </div><!--//container-->
+</header><!--//header-->
+
+<div class="container sections-wrapper py-5">
+    <div class="row">
+        <div class="primary col-lg-8 col-12">
+            <section class="about section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">About Me</h2>
+                    <div class="content">
+                        <p>Hello! I'm Aaron Whittier and I am currently a student seeking a bachelors degree in Software Engineering! I plan to graduate later this year.
+                        I grew up in a small mountain town called Salmon in the state of Idaho which is well known for it's whitewater rafting scene, which I enjoy
+                        participating in. I am a hobbyist woodworker and it was this hobby that lead me down the path of programming. Many of the woodworking
+                        project I undertake require architectural design and forethought to ensure that everything fits together well when a project is nearing
+                        completion. This design process mirrors that of software design and has been a massive aid to me as I have sought to apply the principles
+                        of software development!</p>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+
+            <section class="latest section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Projects</h2>
+                    <div class="content">
+
+                        <div class="item featured text-center">
+
+                            <div class="featured-image has-ribbon">
+                                <a href="https://github.com/AAwhittier/MazeGeneratorKotlin" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="Assets/maze1.png" alt="Maze Generator" />
+                                </a>
+                                <a href="https://github.com/AAwhittier/MazeGeneratorKotlin" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="Assets/maze2.png" alt="Maze Generator Solved" />
+                                </a>
+                            </div>
+
+                            <h3 class="title mb-3">Maze Generator</h3>
+
+                            <div class="desc text-start">
+                                <p>Mazes are a great way to showcase algorithmic thinking skills! This maze generator, written in Kotlin, utilizes depth-first traversal and backtracking algorithms to create a randomized maze of a specified size. This allows for the creation of long pathways through the maze, the longest of which is shown in red and becomes the critical path for solving the maze!
+                                Once a maze has been generated, the software draws it to a canvas using Java's Abstract Window Toolkit. This canvas is then saved as a .PNG image to make the maze printable and savable for future use.</p>
+                            </div>
+                        </div><!--//item-->
+                        <hr class="divider" />
+                            <div class="item featured text-center">
+
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://github.com/AAwhittier/UWP_ConwaysGameOfLife" target="_blank">
+                                        <img class="img-fluid project-image rounded shadow-sm" src="Assets/ConwaysGameOfLife.JPG" alt="Conway's Game Of Life" />
+                                    </a>
+                                </div>
+
+                                <h3 class="title mb-3">Conway's Game Of Life</h3>
+
+                                <div class="desc text-start">
+                                    <p>Which cells will live and which will die? Conway's Game Of Life is a timeless programming adventure with a few simple rules.
+                                    Any cell with 2-3 living neighbors will survive to the next generation, dead dells with 3 living nearby become alive, and any other cells
+                                    die before the next generation. This implementation was done on the Windows Universal Platform using C# and Jframes to display the simulation.
+                                    </p>
+                                    <p>I highly enjoyed working on this project. It was a great way to begin working with the UWP platform and further my skills as a developer.
+                                    Simulations such as these show the power that programming can have in predicting and automating our lives.</p>
+                                </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+
+        <div class="secondary col-lg-4 col-12">
+            <aside class="education aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Education</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Software Engineering </h3>
+                            <h4 class="university">Brigham Young University - Idaho <span class="year"> <br/>Expected 2022</span></h4>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+<!--            <aside class="skills aside section">-->
+<!--                <div class="section-inner shadow-sm rounded">-->
+<!--                    <h2 class="heading">Skills</h2>-->
+<!--                    <div class="content">-->
+<!--                        <p class="intro">-->
+<!--                            Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p>-->
+
+<!--                        <div class="skillset">-->
+
+<!--                            <div class="item">-->
+<!--                                <h3 class="level-title">Python &amp; Django<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>-->
+
+<!--                                <div class="level-bar progress">-->
+<!--                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>-->
+<!--                                </div>&lt;!&ndash;//level-bar&ndash;&gt;-->
+<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
+
+<!--                            <div class="item">-->
+<!--                                <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>-->
+<!--                                <div class="level-bar progress">-->
+<!--                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>-->
+<!--                                </div>&lt;!&ndash;//level-bar&ndash;&gt;-->
+<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
+
+<!--                            <div class="item">-->
+<!--                                <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>-->
+<!--                                <div class="level-bar progress">-->
+<!--                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>-->
+<!--                                </div>&lt;!&ndash;//level-bar&ndash;&gt;-->
+<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
+
+<!--                            <div class="item">-->
+<!--                                <h3 class="level-title">Ruby on Rails<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>-->
+<!--                                <div class="level-bar progress">-->
+<!--                                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>-->
+<!--                                </div>&lt;!&ndash;//level-bar&ndash;&gt;-->
+<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
+
+<!--                            <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p>-->
+<!--                        </div>-->
+<!--                    </div>&lt;!&ndash;//content&ndash;&gt;-->
+<!--                </div>&lt;!&ndash;//section-inner&ndash;&gt;-->
+<!--            </aside>&lt;!&ndash;//section&ndash;&gt;-->
+
+            <aside class="languages aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Spoken Languages</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li class="item">
+                                <span class="title"><strong>English:</strong></span>
+                                <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                            </li><!--//item-->
+                            <li class="item">
+                                <span class="title"><strong>Spanish:</strong></span>
+                                <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                            </li><!--//item-->
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="languages aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">My Resume</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <div class="desc text-start">
+                                <a href="Assets/AaronWhittier_resume.pdf">Download Resume (PDF)</a>
+                            </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<!-- ******FOOTER****** -->
+<footer class="footer">
+    <div class="container text-center">
+        <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">Bootstrap template provided by Third Wave Media for developers</small>
+    </div><!--//container-->
+</footer><!--//footer-->
+
+</body>
+</html>
